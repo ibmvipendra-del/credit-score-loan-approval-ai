@@ -1,0 +1,43 @@
+{
+    "model": "CatBoost",
+    "target": "default",
+    "features": [
+        "checking_account_status",
+        "loan_duration_months",
+        "credit_history",
+        "loan_purpose",
+        "credit_amount",
+        "savings_account_status",
+        "employment_duration",
+        "installment_rate",
+        "other_debtors",
+        "residence_duration",
+        "property_type",
+        "age",
+        "other_installment_plans",
+        "housing_status",
+        "existing_credits",
+        "job_type",
+        "dependents",
+        "telephone"
+    ],
+    "categorical_features": [
+        "checking_account_status",
+        "credit_history",
+        "loan_purpose",
+        "savings_account_status",
+        "employment_duration",
+        "other_debtors",
+        "property_type",
+        "other_installment_plans",
+        "housing_status",
+        "job_type",
+        "telephone"
+    ],
+    "excluded_sensitive_features": [
+        "personal_status_sex",
+        "foreign_worker"
+    ],
+    "training_records": 800,
+    "random_state": 42
+}
