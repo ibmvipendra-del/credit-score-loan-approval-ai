@@ -1,0 +1,12 @@
+
+pandas
+numpy
+xgboost
+catboost
+shap
+streamlit
+matplotlib
+seaborn
+ucimlrepo
+pytest
+joblib
